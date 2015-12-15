@@ -32,8 +32,10 @@ $(document).ready(function(){
 			//console.log('x='+$('.portfolio_title').css('margin-top'));
 		}else if(_scrolling>=1870 && _scrolling<3222){
 			$('.logo span').css('background-color','#CCF5CC');
-		}else{
+		}else if(_scrolling>=3222){
 			$('.logo span').css('background-color','#ffd6eb');
+		}else{
+			$('.logo span').css('background-color','#ffe6cc');	
 		}
 	};
 	$(window).load(function(){
