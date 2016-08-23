@@ -27,7 +27,7 @@ $(document).ready(function(){
 		}
 		if(_scrolling>600 && _scrolling<1870){
 			$('.logo span').css('background-color','#ffe6cc');
-			$('.frame').stop().animate({'top':340+_scrolling-650},300);
+			$('.frame').css('top',340+_scrolling-650);
 			$('.portfolio_title').css('margin-top',10+(_scrolling-600)/10);
 			//console.log('x='+$('.portfolio_title').css('margin-top'));
 		}else if(_scrolling>=1870 && _scrolling<3162){
