@@ -221,9 +221,9 @@ footer p{
 	left:40%;
 	margin-left: -20%;
 	pointer-events:none;
-	-ms-transform: rotate(3deg); /* IE 9 */
-    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
-    transform: rotate(3deg);
+/*	-ms-transform: rotate(3deg); 
+    -webkit-transform: rotate(3deg); 
+    transform: rotate(3deg);*/
 }
 .showworks .frame p{
 	float:right;
